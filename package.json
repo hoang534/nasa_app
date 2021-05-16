@@ -2,14 +2,11 @@
   "name": "nasasearchengine",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hoang534.github.io/NASA/",
+  "homepage": ".",
   "scripts": {
     "dev": "next dev",
-    "build":  "next build && next export",
-    "export": "next export",
-    "start": "next start",
-    "predeploy": "npm run",
-    "deploy": "gh-pages -d build"
+    "build": "next build",
+    "start": "next start -p $PORT"
   },
   "dependencies": {
     "next": "10.2.0",
