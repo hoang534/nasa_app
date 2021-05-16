@@ -1,14 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import {useState, useCallback, useRef} from 'react'
-import styles from '../styles/Home.module.css'
-import Search from './search.js'
+
+import Search from '../components/search.js'
 
 export default function Home() {
-  
+//Home page which comprises of the Search
   return (
-
-    < Search / >
-
+    <Search />
     )
   }
