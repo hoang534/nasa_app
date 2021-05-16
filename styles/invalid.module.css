@@ -1,0 +1,6 @@
+.error {
+    color:red;
+    position:fixed;
+    align-items:center;
+    padding-top:2em;
+  }
